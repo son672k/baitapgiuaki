@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Đăng nhập</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm col-1 login-text d-none d-md-block">
+            <h1>BÌNH DƯƠNG</h1>
+            <h1>UNIVERSITY</h1>
+            <br>
+            <p>Đào tạo đại học chính quy năm 2023</p>
+            <p>Tuyển sinh sau đại hoc</p>
+        </div>
+        <div class="col-sm">
+            <div class="login-container">
+                <div class="login-form">
+                  <h2>Đăng nhập</h2>
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" checked> Doanh nghiệp
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option2" autocomplete="off"> Hộ kinh doanh
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option3" autocomplete="off"> Cá nhân
+                    </label>
+                  </div>
+                  <br>
+                  <div id="business-info">
+                    <label for="email">* Email</label>
+                    <input type="email" class="form-control" placeholder="Nhập email">
+                  </div>
+                  <div id="personal-info">
+                    <label for="email">* Email</label>
+                    <input type="email" class="form-control" placeholder="Nhập email hoặc số điện thoại">
+                  </div>
+                  <div class="input-container input-333">
+                    <label for="password">* Mật khẩu</label>
+                    <input type="password" id="myInput10" class="form-control mb-2" placeholder="Nhập mật khẩu">
+                    <button id="my-button10" onclick="myFunction10()"><i class="fas fa-eye"></i></button>
+                  </div>
+                  <div id="qmk">
+                    <a href="#">Quên mật khẩu</a>
+                  </div>
+                  <br>
+                  <button class="btn btn-primary w-75 py-2" type="submit">Đăng nhập</button><br><br>
+                  <button class="vn btn btn-secondary w-75 py-2" type="submit"><img src="img/logoVNPT.png" alt="VNPT ID logo">Đăng nhập bằng VNPT ID</button>
+                  <hr>
+                  <div class="row">
+                    <div class="col-7">
+                        <p>Chưa có tài khoản? <a href="dangky.html">Đăng ký</a></p>
+                    </div>
+                    <div class="col-3 text-end">
+                        <a href="https://www.facebook.com"><i class="fa fa-facebook-official" id="fa"> </i></a>
+                        <a href="https://www.youtube.com"><i class="fa fa-youtube-play" id="yu"></i></a>
+                    </div>
+                </div>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://kit.fontawesome.com/d0d6301a4c.js" crossorigin="anonymous"></script>
+</body>
+</html>

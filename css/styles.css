@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+  }
+  .container {
+    height: 100%;
+  }
+  .login-container {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+  }
+  .register-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../img/bg-login-fix.svg');
+    background-size: cover;
+    background-position: center;
+  }
+  h1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 0.6;
+  }
+  .col-1 p {
+    margin-left: 40px;
+    color: white;
+    line-height: 0.6;
+  }
+  .login-form {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+  } 
+  .register-form {
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+  }  
+  .login-form h2 {
+    color: #0056b3;
+  }
+  .login-form label {
+    text-align: left;
+  }
+  .register-form h2 {
+    color: #0056b3;
+  }
+  .form-control {
+    margin-bottom: 10px;
+  }
+  .btn-group {
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+  }
+  .btn-group label {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    border-bottom: 2px solid transparent;
+  }
+  .btn-group label:hover,
+  .btn-group label.active {
+    background-color: transparent;
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  
+  .container {
+    height: 100vh;
+}
+.align-items-center {
+    text-align: center;
+}
+.form-check-label {
+    margin-left: 5px;
+}
+#personal-info {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+  .login-container {
+    width: auto;
+    margin: 0;
+  }
+  .register-form {
+    width: 100%;
+  }
+}
+ .ok {
+  white-space: pre;
+ }
+ .button-right {
+  float: right!important;
+ }
+
+ .input-container {
+  position: relative;
+}
+
+.input-container input {
+  padding-right: 25px;
+}
+
+.input-container button {
+  position: absolute;
+  right: 5px;
+  top: 70%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.input-container.input-333 button {
+  position: absolute;
+  right: 5px;
+  top: 70.5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.vn {
+  border: 0px;
+  background-color: orange;
+}
+.vn img {
+  height: 24px;
+  margin-right: 5px;
+  background-color: white;
+}
+
+#qmk{
+  text-align: right;
+}
